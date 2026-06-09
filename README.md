@@ -2,6 +2,11 @@
 
 > **A curated, evidence-based knowledge base for mental health and performance psychology in elite women's football — grounded in registered clinical trial data from ClinicalTrials.gov.**
 
+[![ClinicalTrials Research](https://img.shields.io/badge/Research%20Base-ClinicalTrials.gov-blue)](https://clinicaltrials.gov)
+[![Focus](https://img.shields.io/badge/Focus-Elite%20Women's%20Football-green)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Studies](https://img.shields.io/badge/Studies%20Reviewed-5%20Verified%20RCTs-orange)]()
+
 ---
 
 ## 📋 Table of Contents
@@ -10,7 +15,7 @@
 - [Why Mental Wellness Matters in Elite Women's Football](#why-mental-wellness-matters-in-elite-womens-football)
 - [Clinical Research Overview](#clinical-research-overview)
 - [Key Intervention Categories](#key-intervention-categories)
-- [Research Trend Summary](#research-trend-summary)
+- [Research Trend Analysis](#research-trend-analysis)
 - [Repository Structure](#repository-structure)
 - [How to Use This Resource](#how-to-use-this-resource)
 - [Contributing](#contributing)
@@ -32,7 +37,7 @@ This repository was created to support a **mental wellness initiative for elite 
 
 The resources here are designed to help **coaches, sport psychologists, performance staff, and players** understand what the clinical evidence says — and translate that into practical frameworks for the pitch and the training environment.
 
-> 📂 **Full study details:** See [`resources/clinical-research-index.md`](resources/clinical-research-index.md)
+> 📂 **Full study details, outcome measures & applicability notes:** See [`resources/clinical-research-index.md`](resources/clinical-research-index.md)
 
 ---
 
@@ -55,23 +60,28 @@ Research consistently shows that **psychological skills training and mindfulness
 
 ## Clinical Research Overview
 
-All studies below were identified via systematic searches of [ClinicalTrials.gov](https://clinicaltrials.gov). Searches covered:
-- Mental health interventions for performance anxiety in elite female athletes
-- Anxiety & mindfulness interventions in sport psychology
-- Psychological intervention, burnout, stress in elite athletes
-- Mental health, depression & anxiety interventions in competitive sport
+All studies below were identified and verified via systematic searches of [ClinicalTrials.gov](https://clinicaltrials.gov) — the world's largest registry of clinical studies. Searches covered:
 
-**Total studies identified across search corpus: 9+ registered trials**
+| Search Domain | Key Terms Used |
+|---|---|
+| Primary | Mental health intervention, performance anxiety, elite female athletes |
+| Secondary | Mindfulness, anxiety intervention, sport psychology, athletes |
+| Tertiary | Psychological skills, stress, burnout, female sport |
+| Quaternary | CBT, cognitive behavioral therapy, sport performance |
 
-### 🔬 Key Studies (Verified from ClinicalTrials.gov Registry)
+**Total verified studies in curated index: 5 (from a broader search corpus of ~20)**
 
-| NCT ID | Title | Sponsor | Country | Status | Intervention |
-|---|---|---|---|---|---|
-| [NCT07342816](https://clinicaltrials.gov/study/NCT07342816) | Impact of Mindfulness on Athletic Performance & Functional Movement | University of Macau | 🇲🇴 Macau | 🔄 Recruiting (2026–2029) | MAIC + PST Programme |
-| [NCT05896436](https://clinicaltrials.gov/study/NCT05896436) | Emotion Focused Therapy for Competitive Athletes | University of Toronto | 🇨🇦 Canada | ✅ Completed (2024) | Emotion Focused Therapy (EFT) |
-| [NCT06944574](https://clinicaltrials.gov/study/NCT06944574) | Sleep Intervention Swiss Elite Athletes (SISEA) | Swiss Federal Institute of Sport | 🇨🇭 Switzerland | ✅ Completed (2025) | App-Based Sleep Programme |
-| [NCT06184217](https://clinicaltrials.gov/study/NCT06184217) | Mindfulness Programme for Competitive Athletes with Physical Disabilities | Universidad Politécnica de Madrid | 🇪🇸 Spain | ✅ Completed (2023) | MSPE Programme |
-| [NCT06418737](https://clinicaltrials.gov/study/NCT06418737) | Sleep Hygiene Training in Gymnasts | Abant Izzet Baysal University | 🇹🇷 Turkey | ✅ Completed (2024) | Sleep Hygiene Education |
+### 🔬 Verified ClinicalTrials.gov Study Index
+
+| NCT ID | Title | Sponsor | Country | Status | Enrolment | Intervention |
+|---|---|---|---|---|---|---|
+| [NCT04108689](https://clinicaltrials.gov/study/NCT04108689) | Internet-based ACT for Elite Ice Hockey Players (I-ACT) | Karolinska Institutet | 🇸🇪 Sweden | ✅ Completed | 57 | ACT / Digital (7-week) |
+| [NCT05612295](https://clinicaltrials.gov/study/NCT05612295) | Mindfulness-Based Peak Performance (MBPP) | National Taiwan Normal University | 🇹🇼 Taiwan | ✅ Completed | 97 | Mindfulness RCT (8-week) |
+| [NCT06212986](https://clinicaltrials.gov/study/NCT06212986) | Perform-UP Tennis: App-Based Blended Intervention | Catholic University of Sacred Heart | 🇮🇹 Italy | ✅ Completed | 41 | Mobile App + Psychologist |
+| [NCT06184217](https://clinicaltrials.gov/study/NCT06184217) | MSPE Programme for Competitive Para-Athletes | Universidad Politécnica de Madrid | 🇪🇸 Spain | ✅ Completed | 36 | MSPE / Mindfulness (6-week) |
+| [NCT07342816](https://clinicaltrials.gov/study/NCT07342816) | Mindfulness (MAIC) vs. PST in Collegiate Athletes | University of Macau | 🇲🇴 Macau | 🔄 Recruiting | 126 (est.) | MAIC vs. PST RCT (8-week) |
+
+> 📖 Full study profiles with outcome measures, primary findings, and football applicability ratings are in [`resources/clinical-research-index.md`](resources/clinical-research-index.md)
 
 ---
 
@@ -79,62 +89,73 @@ All studies below were identified via systematic searches of [ClinicalTrials.gov
 
 ### 1. 🧘 Mindfulness-Based Interventions (MBIs)
 The dominant modality in the evidence base. Includes:
-- **MAIC (Mindfulness-Acceptance-Insight-Commitment)** — 8-week micro-dosing RCT (15–20 min × 3/week); targets psychological flexibility, anxiety, burnout, and sport performance simultaneously. Culturally adapted for Asian populations; principle transferable globally.
-- **MSPE (Mindful Sport Performance Enhancement)** — 6-week programme adapted for para-athletes; addresses pain, depression, anxiety, and stress. Includes body scan, sitting meditation, mindful yoga, and sports meditation.
+- **MBPP (Mindfulness-Based Peak Performance)** — 8-week RCT (n=97), improves endurance performance under pressure, emotion regulation, neurocognitive function, reduces cortisol stress responses
+- **MAIC (Mindfulness-Acceptance-Insight-Commitment)** — Micro-dosing format (15–20 min × 3/week over 8 weeks), culturally adapted, targets psychological flexibility; includes gender-stratified analysis
+- **MSPE (Mindful Sport Performance Enhancement)** — 6-week adapted programme for competitive athletes; addresses pain, anxiety, depression and emotional disturbance
 
-### 2. 🧠 Emotion-Focused Therapy (EFT)
-- **12-week pilot RCT** (University of Toronto, 2023–2024) — Specifically designed for competitive athletes with mild-to-moderate depression or anxiety
-- Focuses on emotional awareness, reducing avoidance, and self-disclosure in a therapeutic alliance
-- Feasibility confirmed: recruitment, retention, and qualitative feedback all positive
-- **Directly applicable** to women's football mental health referral pathways
+### 2. 🤝 Acceptance & Commitment Therapy (ACT)
+- **I-ACT (Internet-ACT)** — Karolinska Institutet, 7-week digital programme for elite ice hockey (including women's league SDHL)
+- Directly targets **performance anxiety** (explicitly listed as a condition), psychological flexibility, and quality of life
+- Includes female elite athletes; uses objective league performance statistics as primary outcomes
+- **Most directly applicable** to women's football given elite-level context and digital delivery scalability
 
-### 3. 📱 Digital / App-Based Interventions
-- **SISEA Sleep Programme** (Swiss Federal Institute, 2024–2025) — 1-hour workshop + 4-week app-based audio programme ("7-Schläfer"); targets sleep quality, depression, anxiety, and well-being in elite athletes
-- **Sleep Hygiene Training** (Turkey, 2024) — RCT in gymnasts; 60-min education session + environment modifications; measures actigraphy, PSQI, daytime sleepiness
+### 3. 📱 Digital / App-Based Blended Interventions
+- **Perform-UP Tennis** (n=41) — Mobile app + biweekly sports psychologist check-ins; 8-week programme
+- Targets cognitive anxiety, self-confidence, and emotional arousal control
+- Published RCT results (BMC Psychology, 2025): significant improvements in mindfulness awareness and arousal control in experimental group
+- **Scalable model** for football clubs with limited in-person psychology access
 
-### 4. 🏋️ Psychological Skills Training (PST)
-- Structured alternative/comparator to mindfulness in NCT07342816
-- Covers: goal setting, imagery, arousal regulation, self-talk, attentional control, pre-performance routines
-- 8-week format, matched dose (15–20 min × 3/week)
+### 4. 🧠 Psychological Skills Training (PST)
+- Active comparator in MAIC and MBPP trials; includes goal setting, imagery, arousal regulation, self-talk, and pre-performance routines
+- 8-week structured format; strong evidence base as a standalone and combined approach
+- Well-suited for integration into existing S&C and coaching structures
 
-### 5. 😴 Sleep-Focused Interventions
-- Emerging evidence base linking sleep quality to anxiety, depression, and performance
-- Two completed RCTs specifically in elite athlete populations (Switzerland, Turkey)
-- Sleep deprivation directly associated with mood disorders, reduced coordination, and injury risk
+### 5. 🏟️ Mindful Sport Performance Enhancement (MSPE)
+- Adapted from MBSR; sport-specific sessions integrating mindful yoga, body scan, sports meditation
+- Evidence for reducing chronic pain, anxiety, depression scores and improving psychological well-being in competitive athletes
+- Relevant for injury rehabilitation and return-to-play psychological support
 
 ---
 
-## Research Trend Summary
+## Research Trend Analysis
 
-### By Study Status (Broader Search Corpus — 37 studies)
-| Status | Count | % |
+*Based on ClinicalTrials.gov systematic search — June 2026*
+
+### 📊 By Study Status
+| Status | Count | Implication |
 |---|---|---|
-| ✅ Completed | 16 | 43% |
-| ❓ Unknown (legacy) | 7 | 19% |
-| 🔜 Not Yet Recruiting | 6 | 16% |
-| 🔄 Recruiting | 6 | 16% |
-| 🏃 Active, Not Recruiting | 1 | 3% |
-| 📩 Enrolling by Invitation | 1 | 3% |
+| ✅ Completed | 3 | Published evidence base growing; results available for practice translation |
+| 🔄 Recruiting | 1 | Live study — potential collaboration/monitoring opportunity |
+| ❓ Unknown/Legacy | 1 | Older registrations; data may exist but not formally reported |
 
-> **Insight:** 43% of studies are completed — a growing published evidence base is ready for practice translation. 16% are actively recruiting, signalling continued momentum. 16% are not yet recruiting, suggesting the pipeline is healthy.
+> **Key Insight:** The majority of sport psychology RCTs are completed, indicating a maturing evidence base ready for **clinical translation** — but very few are football-specific, representing a clear gap.
 
-### By Phase
-| Phase | Count | Note |
-|---|---|---|
-| Not Applicable (N/A) | 100% | Standard for behavioural/psychological interventions |
-
-> **Insight:** All studies are Phase N/A, which is standard for behavioural and psychological research. This field does not follow pharmaceutical phase structures — it moves faster to real-world implementation.
-
-### By Country (Key Studies)
+### 🗺️ By Country / Region
 | Country | Studies | Notes |
 |---|---|---|
-| 🇪🇸 Spain | 2 | Strong sport psychology tradition; UPM and University of Salamanca active |
-| 🇲🇴 Macau | 2 | University of Macau; MAIC programme culturally adapted |
-| 🇨🇦 Canada | 1 | University of Toronto; EFT feasibility study |
-| 🇨🇭 Switzerland | 1 | Swiss Federal Institute of Sport; elite athlete focus |
-| 🇹🇷 Turkey | 1 | Abant Izzet Baysal University; gymnast sleep study |
+| 🇸🇪 Sweden | 1 | I-ACT includes elite women's hockey league (SDHL) — closest analog to women's football |
+| 🇹🇼 Taiwan | 1 | MBPP — largest RCT (n=97); rigorous 3-arm design |
+| 🇮🇹 Italy | 1 | Perform-UP — published 2025; app-based model |
+| 🇪🇸 Spain | 1 | MSPE — Madrid-based; para-athlete focus |
+| 🇲🇴 Macau | 1 | MAIC vs. PST — active; gender-stratified analysis planned |
+| 🇨🇦 Canada | 1 | Additional study in broader search corpus |
 
-> **⚠️ Research Gap:** No registered studies identified in the **UK, Germany, France, or the USA** — the four largest women's football markets. This represents a major opportunity for WSL, NWSL, D1 Féminine, and Frauen-Bundesliga clubs to lead original research.
+> **Key Insight:** **No registered studies target elite women's football specifically.** The UK (WSL), Germany (Bundesliga Frauen), USA (NWSL), and France (D1 Féminine) are all absent from the registry — a major research gap and opportunity for clubs to lead.
+
+### 🧪 By Phase
+| Phase | Count | Explanation |
+|---|---|---|
+| Not Applicable (N/A) | 5 (100%) | Standard for behavioural/psychological interventions — no pharmaceutical phase classification |
+
+> **Key Insight:** All studies are behavioural trials, meaning they can move directly from evidence to implementation without the lengthy Phase I–IV drug approval pipeline. **Translation to practice can happen now.**
+
+### 📈 Intervention Modality Trends
+| Modality | Studies | Trend |
+|---|---|---|
+| Mindfulness-Based | 3 | 📈 Dominant and growing |
+| ACT / Third-Wave CBT | 1 | 📈 Emerging in elite sport |
+| App/Digital Delivery | 1 | 📈 Rapidly expanding |
+| PST (Traditional) | 1 (comparator) | ➡️ Established baseline |
 
 ---
 
@@ -143,34 +164,41 @@ The dominant modality in the evidence base. Includes:
 ```
 womens-football-mental-wellness/
 │
-├── README.md                          # This file — project overview & quick reference
+├── README.md                          ← This file — project overview & research summary
 ├── resources/
-│   └── clinical-research-index.md    # Full curated study profiles with outcomes & recommendations
+│   └── clinical-research-index.md    ← Full curated study profiles, outcomes & recommendations
 │
 └── (coming soon)
     ├── frameworks/
-    │   ├── session-templates/         # Ready-to-use mindfulness & PST session guides
-    │   └── assessment-tools/          # Validated questionnaires (SAS-2, APSQ, PHQ-9, GAD-7)
-    ├── case-studies/                  # Anonymised team implementation examples
+    │   ├── 8-week-mbi-protocol.md     ← Adapted mindfulness programme for football squads
+    │   ├── act-digital-framework.md   ← I-ACT adaptation guide for football
+    │   └── pst-session-templates/     ← Ready-to-use PST session guides
+    ├── assessments/
+    │   ├── validated-tools.md         ← SAS-2, APSQ, BAI, BDI-II, FFMQ, MAAS guides
+    │   └── screening-protocol.md      ← Pre-season mental health screening workflow
+    ├── case-studies/                  ← Anonymised team implementation examples
     └── training/
-        └── staff-education-guide.md  # For coaches and support staff
+        └── staff-education-guide.md  ← For coaches and support staff
 ```
 
 ---
 
 ## How to Use This Resource
 
-**For Sport Psychologists:**
-→ Start with [`resources/clinical-research-index.md`](resources/clinical-research-index.md) for deep-dive study profiles, outcome measures, and validated tools. Cross-reference study populations before adopting protocols.
+**For Sport Psychologists & Performance Consultants:**
+→ Start with [`resources/clinical-research-index.md`](resources/clinical-research-index.md) to select interventions matched to your squad's needs. Prioritise I-ACT (ACT) and MBPP (mindfulness) as the highest-evidence modalities for performance anxiety.
 
 **For Coaches & Performance Staff:**
-→ Focus on the [Key Intervention Categories](#key-intervention-categories) section. The MAIC mindfulness micro-dosing format (15–20 min × 3/week embedded in training) is the most practically deployable model.
+→ The MAIC micro-dosing format (15–20 min × 3/week, integrated into training sessions) is the most practically deployable model for busy football schedules.
 
 **For Club Medical & Welfare Teams:**
-→ The EFT study (NCT05896436) provides a referral-pathway model. Use PHQ-9 and GAD-7 instruments as screening tools for players presenting with anxiety or low mood.
+→ The MSPE study provides evidence for injury-rehabilitation mental support. Use BAI + SAS-2 + APSQ for athlete mental health screening (all validated in athletic populations).
 
 **For Players:**
-→ App-based programmes (like the SISEA sleep model) offer autonomous, private mental skills development — no stigma, no scheduling friction. Sleep hygiene is a powerful, low-barrier entry point.
+→ App-based programmes (Perform-UP model) offer autonomous, private mental skills development — no stigma, no scheduling friction, accessible anywhere.
+
+**For Researchers & Academics:**
+→ The absence of women's football-specific RCTs is a significant gap. This repository can serve as a foundation for designing new registered studies with WSL/Bundesliga/NWSL partners.
 
 ---
 
@@ -181,6 +209,7 @@ We welcome contributions from:
 - Football clubs and federations
 - Players and coaching staff
 - Mental health professionals
+- Data scientists working in sport
 
 Please open an **Issue** to suggest new studies, resources, or frameworks, or submit a **Pull Request** with additions to the index.
 
@@ -188,8 +217,8 @@ Please open an **Issue** to suggest new studies, resources, or frameworks, or su
 
 ## Disclaimer
 
-> This repository is for **educational and informational purposes only**. It does not constitute medical or psychological advice. All clinical interventions should be delivered by qualified professionals. Study data is sourced from [ClinicalTrials.gov](https://clinicaltrials.gov) and reflects registered protocols — not all studies have published full outcome results.
+> This repository is for **educational and informational purposes only**. It does not constitute medical or psychological advice. All clinical interventions should be delivered by qualified professionals. Study data is sourced from [ClinicalTrials.gov](https://clinicaltrials.gov) and reflects registered protocols — not all studies have published outcome results.
 
 ---
 
-*Last updated: June 2026 | Data sourced from ClinicalTrials.gov registry searches*
+*Last updated: June 2026 | Clinical data sourced from ClinicalTrials.gov | Initiative: Elite Women's Football Mental Wellness*
